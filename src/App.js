@@ -1,3 +1,4 @@
+import GetBreweries from "./GetBreweries";
 import Map from "./Map";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
                 </p>
             </header>
             <Map/>
+            <GetBreweries/>
         </div>
     )
 }
